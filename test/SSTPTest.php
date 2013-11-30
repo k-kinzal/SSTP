@@ -97,18 +97,18 @@ class SSTPTest extends PHPUnit_Framework_TestCase
     // ssp is stopping on mac.
     // public function test_SEND13()
     // {
-    // 	$this->sstp->message = '
-    // 		SEND SSTP/1.3
-    // 		Sender: カードキャプター
-    // 		HWnd: 1024
-    // 		Script: \h\s0どんな感じ？\n\n\q0[#temp0][まあまあ]\q1[#temp1][今ひとつ]\z
-    // 		Entry: #temp0,\m[1025,0,0]\h\s0ふーん。\m[1025,0,1]\e
-    // 		Entry: #temp1,\m[1025,1,0]\h\s0酒に逃げるなヨ！\m[1025,1,1]\e
-    // 		Charset: Shift_JIS
-    // 	';
-    // 	$response = $this->sstp->send('127.0.0.1', 9801, 2);
-
-    // 	var_dump($response); echo "\n";
+    //     $this->sstp->message = '
+    //         SEND SSTP/1.3
+    //         Sender: カードキャプター
+    //         HWnd: 1024
+    //         Script: \h\s0どんな感じ？\n\n\q0[#temp0][まあまあ]\q1[#temp1][今ひとつ]\z
+    //         Entry: #temp0,\m[1025,0,0]\h\s0ふーん。\m[1025,0,1]\e
+    //         Entry: #temp1,\m[1025,1,0]\h\s0酒に逃げるなヨ！\m[1025,1,1]\e
+    //         Charset: Shift_JIS
+    //     ';
+    //     $response = $this->sstp->send('127.0.0.1', 9801, 2);
+    //
+    //     var_dump($response); echo "\n";
     // }
 
     public function test_SEND14()
