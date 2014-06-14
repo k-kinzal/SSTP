@@ -4,6 +4,8 @@ namespace Kinzal\SSTP;
 
 /**
  * Sakura Script Transfer Protocol.
+ * さくら　すくりぷと　とらんすふぁー　ぷろとこる
+ * 
  */
 class SSTP
 {
